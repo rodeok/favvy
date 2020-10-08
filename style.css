@@ -1,0 +1,51 @@
+*{
+    background-color: teal;
+}
+    
+}
+body{
+    background-color: wheat;
+    margin: auto;
+    padding: 0;
+}
+.box{
+    position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background:transparent;
+	box-sizing: border-box;
+    border-radius: 10px;
+}
+.bad{
+    color: blue;
+    cursor: pointer;
+}
+.internet{
+    align-items: center;
+    color: white;
+}
+.img{
+    color: black;
+    size: 200px;
+    width: 100px;
+    top: 50px;
+    left: 50px;
+    display: flex;
+}
+.hello{
+    font-family: cursive;
+    font-size: 300px;
+}
+.tit{
+    border-radius: 100%;
+    size: 30px;
+    width: 100px;
+    top: 20px;
+    left: 50px;
+}
+:host{
+    white-space: nowrap;
+}
